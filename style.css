@@ -1,8 +1,11 @@
+:root {
+    --font-lato : "Lato", sans-serif;
+}
 /* Basic Style */
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: var(--font-lato);
 }
 .aaa {
   width: 500px;
@@ -50,7 +53,7 @@ button {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: var(--font-lato);
   cursor: pointer;
 }
 button:hover {
@@ -72,10 +75,10 @@ input[type="text"] {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: var(--font-lato);
   color: #888;
 }
 input[type="text"]:focus {
