@@ -14,26 +14,28 @@
       <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="container-tasks">
+      <p id="add-task">
         <h3 class="caption add-tasks-caption">Add Item</h3>
       <div class="task-row-wrapper">
-        <input class="new-task">
+        <input class="input task-input new-task">
         <button class="button add">Add</button>
       </div>
+    </p>
       <h3 class="caption">Todo</h3>
-      <ul class="task-list" id="incomplete-tasks">
+      <ul class="task-list incomplete">
         <li class="task-list-element">
-          <input class="input checkbox-input" type="checkbox">
+          <input class="input complete-input" type="checkbox">
           <label class="task-label">Pay Bills</label>
-          <input class="task-input input">
+          <input class="input task-input">
           <button class="button button-edit">Edit</button>
           <button class="button button-delete">
             <img class="img-remove" src="./remove.svg">
           </button>
         </li>
-        <li class="task-list-element editMode">
-          <input class="input checkbox-input" type="checkbox">
+        <li class="task-list-element edit-mode">
+          <input class="input complete-input" type="checkbox">
           <label class="task-label">Go Shopping</label>
-          <input  value="Go Shopping" class="task-input input">
+          <input  value="Go Shopping" class="input task-input">
           <button class="button button-edit">Save</button>
           <button class="button button-delete">
             <img class="img-remove" src="./remove.svg">
@@ -41,11 +43,11 @@
         </li>
       </ul>
       <h3 class="caption">Completed</h3>
-      <ul class="task-list" id="completed-tasks">
+      <ul class="task-list complete">
         <li class="task-list-element">
-          <input class="input checkbox-input" type="checkbox" checked>
+          <input class="input complete-input" type="checkbox" checked>
           <label class="task-label">See the Doctor</label>
-          <input class="task-input input">
+          <input class="input task-input">
           <button class="button button-edit">Edit</button>
           <button class="button button-delete">
             <img class="img-remove" src="./remove.svg">
